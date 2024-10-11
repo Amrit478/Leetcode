@@ -1,3 +1,3 @@
-# Leetcode-
+# Leetcode and Hackerrank
 
-#Solutions to all the leetcode problems will be provided here
+#I will provide all solutions to all the leetcode problems will be provided here
