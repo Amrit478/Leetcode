@@ -9,14 +9,6 @@ Copy code
   [7, 8, 9]
 ]
 Example Output: 1, 2, 3, 6, 9, 8, 7, 4, 5
-2. Remove Even Integers from an Array:
-Problem: Write a function that removes all even integers from an array.
-Example Input: [1, 2, 4, 5, 10, 11]
-Example Output: [1, 5, 11]
-3. Merge Two Sorted Arrays:
-Problem: Given two sorted arrays, merge them into a single sorted array.
-Example Input: arr1 = [1, 3, 5], arr2 = [2, 4, 6]
-Example Output: [1, 2, 3, 4, 5, 6]
 4. Find Two Numbers that Add up to "n":
 Problem: Given an array, find two numbers that sum up to a given number n.
 Example Input: arr = [3, 8, 12, 17], n = 20
