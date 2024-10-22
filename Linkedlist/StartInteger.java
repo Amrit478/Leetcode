@@ -1,33 +1,37 @@
 package Linkedlist;
-
 import java.util.LinkedList;
 import java.util.Scanner;
 
 public class StartInteger {
     public static void main(String[] args) {
-        // I am going to work with an integer linked list here
+        // Initialize a scanner for user input
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the numbers (press 0 to finish):");
 
-        LinkedList<Integer> list = new LinkedList<>();
-        int usernumber;
+        // Create a LinkedList to store the numbers
+        LinkedList<Integer> numbers = new LinkedList<>();
+        int number;
 
-        try {
-            while (true) {
-                usernumber = input.nextInt();
-                if (usernumber == 0) {
-                    break; // Exit the loop if the user enters 0
-                } else {
-                    list.add(usernumber); // Add the number to the linked list
-                }
+        // Loop to collect user input
+        while (true) {
+            number = input.nextInt(); // Read the next integer
+
+            // Check if the input is 0 to break the loop
+            if (number == 0) {
+                break;
             }
-        } catch (Exception e) {
-            System.out.println("We have an error, please try again.");
-        } finally {
-            input.close(); // Close the scanner to prevent resource leaks
+
+            // Add the number to the LinkedList
+            numbers.add(number);
         }
 
-        // Display the numbers entered
-        System.out.println("Numbers entered: " + list);
+        // Close the scanner
+        input.close();
+
+        // Print the collected numbers
+        System.out.println("You entered the following numbers:");
+        for (Integer num : numbers) {
+            System.out.println(num);
+        }
     }
 }
