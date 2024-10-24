@@ -1,6 +1,6 @@
 package Linkedlist;
 
-import javafx.scene.Node;
+//https://www.simplilearn.com/tutorials/data-structure-tutorial/types-of-linked-list#what_is_a_doubly_linked_list
 
 public class Singlylinkedlist extends Node{
     public static void main(String[] args) {
