@@ -56,4 +56,20 @@
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/Amrit478/Leetcode/tree/master/0051-n-queens) |
+## Design
+|  |
+| ------- |
+| [2207-sequentially-ordinal-rank-tracker](https://github.com/Amrit478/Leetcode/tree/master/2207-sequentially-ordinal-rank-tracker) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2207-sequentially-ordinal-rank-tracker](https://github.com/Amrit478/Leetcode/tree/master/2207-sequentially-ordinal-rank-tracker) |
+## Data Stream
+|  |
+| ------- |
+| [2207-sequentially-ordinal-rank-tracker](https://github.com/Amrit478/Leetcode/tree/master/2207-sequentially-ordinal-rank-tracker) |
+## Ordered Set
+|  |
+| ------- |
+| [2207-sequentially-ordinal-rank-tracker](https://github.com/Amrit478/Leetcode/tree/master/2207-sequentially-ordinal-rank-tracker) |
 <!---LeetCode Topics End-->
