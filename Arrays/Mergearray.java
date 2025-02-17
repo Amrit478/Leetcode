@@ -13,16 +13,3 @@ However I will be solving it using optimization method where I will be solving i
 //Main method where it will be solved
 
 //I will compare both array and than decide which element should go first based on that
-
-
-
-
-
-
-
-public class Mergearray {
-  //Need to write when reach home 
-psvm{
-  
-}
-}
