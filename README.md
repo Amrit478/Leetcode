@@ -77,4 +77,8 @@
 |  |
 | ------- |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Amrit478/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+## Database
+|  |
+| ------- |
+| [0176-second-highest-salary](https://github.com/Amrit478/Leetcode/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->
