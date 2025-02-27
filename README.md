@@ -7,6 +7,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Amrit478/Leetcode/tree/master/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/Amrit478/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Amrit478/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0051-n-queens](https://github.com/Amrit478/Leetcode/tree/master/0051-n-queens) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Amrit478/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -82,4 +83,12 @@
 | ------- |
 | [0176-second-highest-salary](https://github.com/Amrit478/Leetcode/tree/master/0176-second-highest-salary) |
 | [0181-employees-earning-more-than-their-managers](https://github.com/Amrit478/Leetcode/tree/master/0181-employees-earning-more-than-their-managers) |
+## Binary Search
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Amrit478/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Amrit478/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 <!---LeetCode Topics End-->
