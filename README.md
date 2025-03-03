@@ -84,6 +84,7 @@
 | [0176-second-highest-salary](https://github.com/Amrit478/Leetcode/tree/master/0176-second-highest-salary) |
 | [0181-employees-earning-more-than-their-managers](https://github.com/Amrit478/Leetcode/tree/master/0181-employees-earning-more-than-their-managers) |
 | [0182-duplicate-emails](https://github.com/Amrit478/Leetcode/tree/master/0182-duplicate-emails) |
+| [0196-delete-duplicate-emails](https://github.com/Amrit478/Leetcode/tree/master/0196-delete-duplicate-emails) |
 ## Binary Search
 |  |
 | ------- |
