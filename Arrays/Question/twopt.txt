@@ -1,0 +1,56 @@
+Two Pointers Moving Towards Each Other: One pointer starts at the beginning, and the other at the end, moving towards each other until they meet or cross. 
+Two Pointers Moving in the Same Direction: One pointer moves faster than the other, or they both move at the same speed, but in the same direction. 
+Two Pointers with Different Starting Points: One pointer starts at the beginning, and the other at a different point, and they move in the same direction. 
+
+  The key difference between sliding window and two-pointer techniques lies in their focus: sliding window analyzes contiguous subsets within an iterable, while two-pointer focuses on meeting conditions simultaneously with two pointers,
+  often disregarding elements between them.
+
+  Sliding Window Technique:
+Focus: Maintains a "window" (a contiguous subset) of elements and slides it across the input (array or string) to perform operations on the window. 
+Common Use Cases:
+Finding the maximum or minimum sum of a subarray of a fixed size. 
+Finding the longest substring with unique characters. 
+Calculating a running average or sum. 
+Optimizing contiguous subarray conditions. 
+xample: Finding the maximum sum of a subarray of size k in an array. 
+  
+  Two-Pointer Technique:
+Focus:
+Uses two pointers to traverse an array or list, often in opposite directions, to find specific elements or conditions.
+Common Use Cases:
+Finding pairs that sum to a target value.
+Detecting loops in linked lists.
+Reversing a string or linked list.
+Finding the middle element of a linked list.
+  Example:
+Finding two numbers in a sorted array that add up to a specific target value. 
+
+  This is particularly useful when the problem involves finding a subarray or substring that satisfies certain criteria. Variable Size Sliding Window Approach:
+In this approach, instead of maintaining a fixed-size window throughout the entire process, you adjust the window size as needed. Also they both apply on the 
+  continous array but variable size window can do that such as if i have an array given {1,2,34,5,4,,6,56,34,7,8,9}
+
+  Compare the two approaches
+Fixed-size is used when the window size is known and constant.
+Variable-size is used when the window size is dynamic and depends on conditions.
+
+  Step 1: Fixed-size Sliding Window
+  Example Define a fixed window size: 
+Let's choose a window size of \(3\).
+  Slide the window and process elements: 
+Window 1: \(\{1,2,34\}\) 
+Window 2: \(\{2,34,5\}\) 
+Window 3: \(\{34,5,4\}\) 
+Window 4: \(\{5,4,6\}\) 
+Window 5: \(\{4,6,56\}\) 
+Window 6: \(\{6,56,34\}\)
+  Window 7: \(\{56,34,7\}\) 
+Window 8: \(\{34,7,8\}\) 
+Window 9: \(\{7,8,9\}\) 
+
+Step 2: Variable-size Sliding Window 
+  Example Define a condition: Find the smallest window with a sum greater than \(50\). 
+  
+  Apply the variable-size window: Start with \(\{1\}\), sum is \(1\). Expand to \(\{1,2\}\), sum is \(3\). Expand to \(\{1,2,34\}\), sum is \(37\). Expand to \(\{1,2,34,5\}\), sum is \(42\). Expand to \(\{1,2,34,5,4\}\), sum is \(46\). 
+  Expand to \(\{1,2,34,5,4,6\}\), sum is \(52\). 
+  Shrink from left: \(\{2,34,5,4,6\}\), sum is \(51\). Shrink from left: \(\{34,5,4,6\}\), sum is \(49\) (condition fails). 
+  So, the smallest window is \(\{2,34,5,4,6\}\). Continue this process for the rest of the array.
