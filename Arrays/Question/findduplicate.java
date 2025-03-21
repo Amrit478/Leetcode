@@ -13,3 +13,4 @@ Input : n = 5, arr[] = [1, 2, 3, 4 ,3]
 Output: 3
 Explanation: The number 3 appears more than once in the array.*/
 
+jgk
