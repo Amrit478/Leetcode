@@ -32,6 +32,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Amrit478/Leetcode/tree/master/0002-add-two-numbers) |
+| [0007-reverse-integer](https://github.com/Amrit478/Leetcode/tree/master/0007-reverse-integer) |
 | [1875-tree-of-coprimes](https://github.com/Amrit478/Leetcode/tree/master/1875-tree-of-coprimes) |
 ## Recursion
 |  |
