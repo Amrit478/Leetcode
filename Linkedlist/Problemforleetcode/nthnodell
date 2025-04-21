@@ -1,0 +1,111 @@
+/*Given a Linked List of M nodes and a number N, find the value at the Nth node from the end of the Linked List. If there is no Nth node from the end, print -1.
+
+Examples:
+
+Input: 1 -> 2 -> 3 -> 4, N = 3
+Output: 2
+Explanation: Node 2 is the third node from the end of the linked list.
+
+
+Input: 35 -> 15 -> 4 -> 20, N = 4
+Output: 35
+Explanation: Node 35 is the fourth node from the end of the linked list.
+*/
+/*My solution will be here as follows and I have given n nodes and than I have given number M, so first I have to check the base case condition which is 
+1. Linked list should not be empty
+2. If there is no node on the list given I will return -1
+
+ALGORITHM IS GOING TO USE TWO POINTERS APPROACH- 
+1.I will use two pointers here where the first pointer will be that N steps ahead of other pointer and when The pointer which is N steps ahead of other pointer reaches null or end of the linked list
+than I will return the pointer which is four steps back the other pointer.
+*/
+
+//My LInked list class 
+class Node {
+  int data;
+  Node next;
+Node previous;
+
+Node (int data) {
+    this.data = data;
+    this.next = null;
+    this.previous = null;
+}
+}
+//Now I will write the main class
+   public static void main(String[] args) {
+      
+        // Create a hard-coded linked list:
+        // 35 -> 15 -> 4 -> 20
+        Node head = new Node(35);
+        head.next = new Node(15);
+        head.next.next = new Node(4);
+        head.next.next.next = new Node(20);
+
+        // Function Call to find the 4th node from end
+        System.out.println(nthFromEnd(head, 4));
+    }
+}
+
+
+
+
+
+
+                    MY LOGIC FOR THE SUM AND WHY IT WONT WORK OR DOES IT HAS DIFFERENT TIME AND SPACE COMPLEXITY
+                    
+class GFG {
+//Function to find Nth node from the end of LInked list
+
+static int nthfromend(Node head, int N) {
+//Two pointer declared for moving and finding the value
+int frontend, nfrontend;
+//Logic is that if head of linked list is empty or N is not given in linked list than I WILL return -1
+if(head == null || N != head) {
+ return -1;
+}
+//nfront pointer is there where head value is with n Pointer number
+nfront = head.N;
+//while(head != null || nfront == null) {
+ frontend = head.next;
+ nfront = head.next;
+}
+return frontend;
+}
+}
+
+
+
+            CODE FROM THE ACTUALLY WEBSITE
+
+
+ public class GFG {
+
+    // Function to find Nth node from the end of linked list
+    static int nthFromEnd(Node head, int N) {
+      
+        // Create two pointers main_ptr and ref_ptr
+        // initially pointing to head.
+        Node main_ptr = head;
+        Node ref_ptr = head;
+
+        // Move ref_ptr to the N-th node from beginning.
+        for (int i = 1; i < N; i++) {
+            ref_ptr = ref_ptr.next;
+
+            // If the ref_ptr reaches NULL, then it means 
+            // N > length of linked list
+            if (ref_ptr == null) {
+                return -1;
+            }
+        }
+
+        // Move ref_ptr and main_ptr by one node until
+        // ref_ptr reaches last node of the list.
+        while (ref_ptr.next != null) {
+            ref_ptr = ref_ptr.next;
+            main_ptr = main_ptr.next;
+        }
+
+        return main_ptr.data;
+    }           
