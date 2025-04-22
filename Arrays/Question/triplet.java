@@ -12,4 +12,5 @@ Output: 168*/
 /*I have to find the top three numbers in each array and than multiply them and return thier sum*/
 
 /*ALGORITHM WITH THE GIVEN STEPS IS HERE
+
 */
