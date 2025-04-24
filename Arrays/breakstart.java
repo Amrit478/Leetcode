@@ -52,14 +52,33 @@ public class Main {
     Sumofall(numbers);
   }
   public static void Sumofall(int [] numbers) {
-    
+    /*I will declare first pointer and add the sum of the value given in this array.
+    After adding the sum I can return that sum and I will use second pointer which has the
+    length of all the numbers integer array and to find the average I will divide the sum
+    by the length of that array. I will be also working with the while loop which will be 
+    helping me move the array forward*/
+    int sum = 0;
+
+    // Calculate the sum of elements
+    for (int i = 0; i < numbers.length; i++) {
+        sum += numbers[i];
+    }
+
+    // Calculate the average
+    double average = (double) sum / numbers.length;
+
+    // Print the sum and average
+    System.out.println("Sum of elements: " + sum);
+    System.out.println("Average value: " + average);
   }
 }
 
+/*You are given an array of integers:
+int[] numbers = {1, 3, 2, 5, 4, 8, 6, 7};
+Write a Java program to find the maximum sum of a subarray of a given size k.
 
-
-
-
+For example, for the array above and k = 3, the program should return 
+"maximum sum of subarray of size 3 is 15" because the subarray [5, 4, 8] has the largest sum (5 + 4 + 8 = 15).*/
 
 
 
